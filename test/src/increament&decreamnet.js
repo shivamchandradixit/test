@@ -50,7 +50,6 @@ class IncAndDnc extends React.Component {
   }
 }
 const mapStatetoProps = (state) => ({
-  count: state.count,
   roomCount: state.roomCount,
   adultCount: state.adultCount,
   childCount: state.childCount,
