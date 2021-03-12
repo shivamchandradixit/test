@@ -1,8 +1,25 @@
-.App {
+.btn {
+  height: 30px;
+  line-height: 30px;  
+  width: 30px;  
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: white;
   text-align: center;
+  cursor: pointer;
 }
 
-.App-logo {
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +52,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
