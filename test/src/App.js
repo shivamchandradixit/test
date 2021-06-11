@@ -7,9 +7,10 @@ function App() {
       <table>
         <tbody>
         {arr.map( (value) =>{
-        return <tr>
+      return <tr>
           <td><b>{value}</b></td>&nbsp;&nbsp;&nbsp;
           <td><IncAndDec forSelected={value}/></td>
+          <td><h1>Aditya ko sikhaya</h1></td>
         </tr>
       })}
         </tbody>
